@@ -17,7 +17,7 @@ export default function About() {
         </p>
 
         <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
-          At The CAS Group VA, we specialize in appointment setting for life insurance agents and brokers across the U.S., focusing on life insurance and mortgage protection.
+          We're a dedicated team focused on one thing: helping you close more deals by filling your calendar with qualified appointments.
         </p>
 
         <div className="flex justify-center mb-8">
