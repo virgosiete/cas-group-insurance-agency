@@ -13,7 +13,7 @@ export default function About() {
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="mb-6">Who We Are</h2>
         <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
-          Looking for a reliable and skilled Virtual Assistant Team to help you grow your life insurance business? You've come to the right place!
+          
         </p>
 
         <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
