@@ -9,58 +9,46 @@ const testimonials: Testimonial[] = [
     role: "Commercial Account Executive",
   },
   {
-    text: "Working with Conrad and the CAS Group team has been a game-changer for my business. Their professionalism and dedication to getting results is unmatched.",
+    text: "If you are in the market or even considering bringing on a dialer, caller or appointment setter...whether you need it for new clients, recruits, potential customers...do yourself a solid and give a shout out to Conrad and his team! By far they have been a cut above any other company or crew out there that I have tried! I have been in the insurance space for almost 2 decades and I have to say they have impressed and continue to impress! My hats off on the professionalism, the attentiveness, and their ability to win on a constant basis for you and your team with positive intent and your best interest in mind!",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
-    name: "David Martinez",
-    role: "Life Insurance Broker",
+    name: "Frank Coronel",
+    role: "Life Insurance Agent at Symmetry Financial Group",
   },
   {
-    text: "The CAS Group VA team transformed our appointment setting process. We went from struggling to fill our calendar to having consistent, qualified appointments every week.",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
-    name: "Sarah Johnson",
-    role: "Insurance Agent",
-  },
-  {
-    text: "I was skeptical about outsourcing appointment setting, but CAS Group exceeded all expectations. Their attention to detail and commitment to our success is remarkable.",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
-    name: "Jennifer Williams",
-    role: "Senior Insurance Advisor",
-  },
-  {
-    text: "The best investment I've made in my business. CAS Group's VAs are professional, reliable, and truly understand the insurance industry.",
+    text: "Conrad is an exceptional virtual assistant who excels in appointment setting, significantly boosting my weekly appointments. He is receptive to script suggestions, diligent in his work ethic, and possesses the expertise to provide valuable feedback on leads and lead generation strategies. Conrad's combination of experience and coachability makes him an invaluable asset to any business.",
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
-    name: "Robert Thompson",
-    role: "Agency Owner",
+    name: "Brian Reese",
+    role: "Insurance Professional",
   },
   {
-    text: "Conrad and his team have been instrumental in growing our agency. Their appointment setting skills are top-notch and they always deliver quality leads.",
+    text: "Conrad and his team made things so much easier for me by handling appointments and setting up interviews with prospective agents. I truly recommend their services.",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
+    name: "Eric Prebula",
+    role: "Symmetry Financial Group",
+  },
+  {
+    text: "Conrad's team is amazing to work with. From texting and calling leads to helping me secure more quality appointments, they've given me more time freedom for myself and my family.",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+    name: "David Wes Allen",
+    role: "Symmetry Financial Group",
+  },
+  {
+    text: "Conrad and his team are amazing to work with. They've helped my business grow by setting quality client appointments, allowing me to focus on sales, helping families, building my team, and strengthening relationships. They're truly an asset to my business!",
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
-    name: "Amanda Chen",
-    role: "Insurance Specialist",
+    name: "Molly Fisher",
+    role: "Symmetry Financial Group",
   },
   {
-    text: "CAS Group's service is exceptional. They handle our lead follow-ups professionally and ensure our clients show up to appointments. Highly recommend!",
+    text: "Excellent activity. Great job on being a powerhouse with digital leads. I'll focus more on those. Metrics look good at 50%, and the rescheduling has been handled well. Nothing else comes to mind for now.",
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
-    name: "Michael Brown",
-    role: "Mortgage Protection Advisor",
-  },
-  {
-    text: "The ROI from working with CAS Group has been incredible. My calendar is full, my closing rate has improved, and I can focus on what I do best - closing deals.",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&h=400&fit=crop",
-    name: "Lisa Anderson",
-    role: "Life Insurance Producer",
-  },
-  {
-    text: "Working with the CAS Group team feels like having an in-house VA at a fraction of the cost. Their communication is excellent and they truly care about our success.",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
-    name: "James Wilson",
-    role: "Independent Agent",
+    name: "Kim Bogden",
+    role: "Symmetry Financial Group",
   },
 ];
 
 const firstColumn = testimonials.slice(0, 3);
-const secondColumn = testimonials.slice(3, 6);
-const thirdColumn = testimonials.slice(6, 9);
+const secondColumn = testimonials.slice(3, 5);
+const thirdColumn = testimonials.slice(5, 7);
 
 export default function Testimonials() {
   return (
@@ -88,9 +76,9 @@ export default function Testimonials() {
         </motion.div>
 
         <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[740px] overflow-hidden">
-          <TestimonialsColumn testimonials={firstColumn} duration={15} />
-          <TestimonialsColumn testimonials={secondColumn} className="hidden md:block" duration={19} />
-          <TestimonialsColumn testimonials={thirdColumn} className="hidden lg:block" duration={17} />
+          <TestimonialsColumn testimonials={firstColumn} duration={30} />
+          <TestimonialsColumn testimonials={secondColumn} className="hidden md:block" duration={35} />
+          <TestimonialsColumn testimonials={thirdColumn} className="hidden lg:block" duration={32} />
         </div>
       </div>
     </section>
