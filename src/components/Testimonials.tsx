@@ -46,6 +46,7 @@ const testimonials: Testimonial[] = [
   },
 ];
 
+const mobileColumn = testimonials;
 const firstColumn = testimonials.slice(0, 3);
 const secondColumn = testimonials.slice(3, 5);
 const thirdColumn = testimonials.slice(5, 7);
@@ -76,7 +77,8 @@ export default function Testimonials() {
         </motion.div>
 
         <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[740px] overflow-hidden">
-          <TestimonialsColumn testimonials={firstColumn} duration={30} />
+          <TestimonialsColumn testimonials={mobileColumn} duration={40} className="md:hidden" />
+          <TestimonialsColumn testimonials={firstColumn} duration={30} className="hidden md:block" />
           <TestimonialsColumn testimonials={secondColumn} className="hidden md:block" duration={35} />
           <TestimonialsColumn testimonials={thirdColumn} className="hidden lg:block" duration={32} />
         </div>
