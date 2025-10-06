@@ -38,11 +38,11 @@ export const TestimonialsColumn = (props: {
                     <div className="text-gray-700 leading-relaxed">{text}</div>
                     <div className="flex items-center gap-3 mt-5">
                       <img
-                        width={44}
-                        height={44}
+                        width={60}
+                        height={60}
                         src={image}
                         alt={name}
-                        className="h-11 w-11 rounded-lg object-cover border-2 border-brand-sage"
+                        className="h-15 w-15 rounded-lg object-cover border-2 border-brand-sage"
                       />
                       <div className="flex flex-col">
                         <div className="font-bold tracking-tight leading-5 text-brand-black">{name}</div>

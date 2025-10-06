@@ -4,25 +4,25 @@ import { TestimonialsColumn, Testimonial } from "@/components/ui/testimonials-co
 const testimonials: Testimonial[] = [
   {
     text: "Conrad is fantastic to work with and have as a virtual assistant. He handled appointment setting for me and drastically increased my weekly appointments. He is coachable when I had script suggestions, diligent to get his work done efficiently, is experienced and smart enough to give feedback on leads and other lead generation strategies. He is an asset to any business for his experience and for how coachable he is.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
+    image: "https://4d5ye6z4o2.ufs.sh/f/KjF07UEepH6l8v6KfdVhJxWiaEhK2Gb6NtOCqVdSPDFpfz3y",
     name: "Jonathan Awoloi",
     role: "Commercial Account Executive",
   },
   {
     text: "If you are in the market or even considering bringing on a dialer, caller or appointment setter...whether you need it for new clients, recruits, potential customers...do yourself a solid and give a shout out to Conrad and his team! By far they have been a cut above any other company or crew out there that I have tried! I have been in the insurance space for almost 2 decades and I have to say they have impressed and continue to impress! My hats off on the professionalism, the attentiveness, and their ability to win on a constant basis for you and your team with positive intent and your best interest in mind!",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
+    image: "https://4d5ye6z4o2.ufs.sh/f/KjF07UEepH6lm1oforxS9n0GkyVu2ri3eNIdcXhgoUmCL45Y",
     name: "Frank Coronel",
     role: "Life Insurance Agent at Symmetry Financial Group",
   },
   {
     text: "Conrad is an exceptional virtual assistant who excels in appointment setting, significantly boosting my weekly appointments. He is receptive to script suggestions, diligent in his work ethic, and possesses the expertise to provide valuable feedback on leads and lead generation strategies. Conrad's combination of experience and coachability makes him an invaluable asset to any business.",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop",
+    image: "https://4d5ye6z4o2.ufs.sh/f/KjF07UEepH6lExGQerHqPsK4Vvtnpwa6O7SeMiZd9cyB0I1X",
     name: "Brian Reese",
     role: "Insurance Professional",
   },
   {
     text: "Conrad and his team made things so much easier for me by handling appointments and setting up interviews with prospective agents. I truly recommend their services.",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
+    image: "https://4d5ye6z4o2.ufs.sh/f/KjF07UEepH6lDzTNnisvk3RVrOdGHctq5yPKhXeaUZQ1p6Mf",
     name: "Eric Prebula",
     role: "Symmetry Financial Group",
   },
@@ -34,7 +34,7 @@ const testimonials: Testimonial[] = [
   },
   {
     text: "Conrad and his team are amazing to work with. They've helped my business grow by setting quality client appointments, allowing me to focus on sales, helping families, building my team, and strengthening relationships. They're truly an asset to my business!",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
+    image: "https://4d5ye6z4o2.ufs.sh/f/KjF07UEepH6lbUcsPQ9HPgm2XAsTLOi3o6xpVkNJUQ0z85Sy",
     name: "Molly Fisher",
     role: "Symmetry Financial Group",
   },
