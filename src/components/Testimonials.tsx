@@ -22,7 +22,7 @@ const testimonials: Testimonial[] = [
   },
   {
     text: "Conrad and his team made things so much easier for me by handling appointments and setting up interviews with prospective agents. I truly recommend their services.",
-    image: "https://4d5ye6z4o2.ufs.sh/f/KjF07UEepH6lDzTNnisvk3RVrOdGHctq5yPKhXeaUZQ1p6Mf",
+    image: "https://4d5ye6z4o2.ufs.sh/f/KjF07UEepH6l9HvhJykcCh0xfjdtWSYyQFUn4N7BIXKHDA5k",
     name: "Eric Prebula",
     role: "Symmetry Financial Group",
   },
