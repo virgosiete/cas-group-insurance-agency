@@ -40,7 +40,7 @@ const testimonials: Testimonial[] = [
   },
   {
     text: "Excellent activity. Great job on being a powerhouse with digital leads. I'll focus more on those. Metrics look good at 50%, and the rescheduling has been handled well. Nothing else comes to mind for now.",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
+    image: "https://4d5ye6z4o2.ufs.sh/f/KjF07UEepH6lNJEprMR4BP8yXGhTWY02NVn7QgEMxU3a5bkL",
     name: "Kim Bogden",
     role: "Symmetry Financial Group",
   },
