@@ -28,7 +28,7 @@ const testimonials: Testimonial[] = [
   },
   {
     text: "Conrad's team is amazing to work with. From texting and calling leads to helping me secure more quality appointments, they've given me more time freedom for myself and my family.",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
+    image: "https://4d5ye6z4o2.ufs.sh/f/KjF07UEepH6l5GCA1tMtjGZyC9KAPrz1McJwRiNUg3IeYb4p",
     name: "David Wes Allen",
     role: "Symmetry Financial Group",
   },
