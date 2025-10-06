@@ -34,7 +34,7 @@ const testimonials: Testimonial[] = [
   },
   {
     text: "Conrad and his team are amazing to work with. They've helped my business grow by setting quality client appointments, allowing me to focus on sales, helping families, building my team, and strengthening relationships. They're truly an asset to my business!",
-    image: "https://4d5ye6z4o2.ufs.sh/f/KjF07UEepH6lbUcsPQ9HPgm2XAsTLOi3o6xpVkNJUQ0z85Sy",
+    image: "https://4d5ye6z4o2.ufs.sh/f/KjF07UEepH6l8Eml0rhJxWiaEhK2Gb6NtOCqVdSPDFpfz3yM",
     name: "Molly Fisher",
     role: "Symmetry Financial Group",
   },
