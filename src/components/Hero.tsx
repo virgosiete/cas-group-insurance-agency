@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="hidden md:block absolute top-20 left-0 w-2 h-64 bg-brand-black transform -skew-y-12"></div>
       <div className="hidden md:block absolute bottom-32 right-12 w-2 h-48 bg-brand-sage"></div>
 
-      <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-5xl text-center relative z-10">
+      <div className="container mx-auto px-4 md:px-6 lg:px-8 max-w-5xl text-center relative z-10 mt-16 md:mt-0">
         <h1 className="mb-6 text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight text-brand-black">
           Your Reliable Virtual Assistant Team
           <br />
