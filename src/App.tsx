@@ -5,6 +5,7 @@ import Services from './components/Services';
 import WhyChoose from './components/WhyChoose';
 import Process from './components/Process';
 import Pricing from './components/Pricing';
+import Team from './components/Team';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -30,6 +31,7 @@ function App() {
         <WhyChoose />
         <Process />
         <Pricing />
+        <Team />
         <Testimonials />
         <Contact onSubmit={handleContactSubmit} />
       </main>
