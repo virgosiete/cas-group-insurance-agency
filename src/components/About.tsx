@@ -25,13 +25,13 @@ export default function About() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="relative flex items-center justify-center space-x-3 p-6 bg-white rounded-lg border-2 border-brand-black group hover:shadow-xl transition-all duration-300 overflow-hidden"
+              className="relative flex flex-col items-center justify-center text-center p-6 bg-white rounded-lg border-2 border-brand-black group hover:shadow-xl transition-all duration-300 overflow-hidden"
             >
               <div className="absolute bottom-0 left-0 w-full h-1 bg-brand-sage transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></div>
-              <div className="w-8 h-8 bg-brand-sage rounded-lg flex items-center justify-center flex-shrink-0">
-                <Check className="w-5 h-5 text-white" strokeWidth={2.5} />
+              <div className="w-12 h-12 bg-brand-sage rounded-lg flex items-center justify-center mb-4">
+                <Check className="w-6 h-6 text-white" strokeWidth={2.5} />
               </div>
-              <span className="font-bold text-brand-black">{feature}</span>
+              <span className="font-bold text-brand-black leading-tight">{feature}</span>
             </div>
           ))}
         </div>
