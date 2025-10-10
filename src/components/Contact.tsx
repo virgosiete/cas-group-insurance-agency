@@ -66,7 +66,7 @@ export default function Contact({ onSubmit }: ContactProps) {
                   required
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-brand-sage focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 border-2 border-brand-lightGray rounded-lg focus:border-brand-mediumGray focus:outline-none transition-colors bg-brand-offWhite"
                   placeholder="Your full name"
                 />
               </div>
@@ -81,7 +81,7 @@ export default function Contact({ onSubmit }: ContactProps) {
                   required
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-brand-sage focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 border-2 border-brand-lightGray rounded-lg focus:border-brand-mediumGray focus:outline-none transition-colors bg-brand-offWhite"
                   placeholder="your@email.com"
                 />
               </div>
@@ -95,7 +95,7 @@ export default function Contact({ onSubmit }: ContactProps) {
                   required
                   value={formData.businessType}
                   onChange={(e) => setFormData({ ...formData, businessType: e.target.value })}
-                  className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-brand-sage focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 border-2 border-brand-lightGray rounded-lg focus:border-brand-mediumGray focus:outline-none transition-colors bg-brand-offWhite"
                 >
                   <option value="">Select your business type</option>
                   <option value="life_insurance_agent">Life Insurance Agent</option>

@@ -8,9 +8,9 @@ export default {
       },
       colors: {
         primary: {
-          50: '#f9f9f9',
+          50: '#fafafa',
           100: '#f5f5f5',
-          200: '#e8e8e8',
+          200: '#e5e5e5',
           300: '#d4d4d4',
           400: '#a3a3a3',
           500: '#737373',
@@ -22,11 +22,14 @@ export default {
         brand: {
           black: '#000000',
           darkGray: '#1a1a1a',
+          mediumGray: '#404040',
           sage: '#000000',
           sageLight: '#333333',
           sageDark: '#000000',
-          lightGray: '#E8E8E8',
-          offWhite: '#F5F5F5',
+          lightGray: '#e5e5e5',
+          veryLightGray: '#f5f5f5',
+          offWhite: '#fafafa',
+          borderGray: '#d4d4d4',
         },
       },
     },

@@ -35,12 +35,12 @@ export default function Process() {
 
       <div className="max-w-5xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8 relative">
-          <div className="hidden md:block absolute top-16 left-0 right-0 h-1 bg-brand-sage -z-10"></div>
+          <div className="hidden md:block absolute top-16 left-0 right-0 h-1 bg-gradient-to-r from-brand-lightGray via-brand-borderGray to-brand-lightGray -z-10"></div>
 
           {steps.map((step, index) => (
             <div key={index} className="text-center relative group">
-              <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-1 h-0 bg-brand-black group-hover:h-12 transition-all duration-300"></div>
-              <div className="inline-flex items-center justify-center w-32 h-32 bg-brand-black border-4 border-white text-white rounded-lg mb-6 relative z-10 shadow-xl group-hover:bg-brand-sage transition-all duration-300 group-hover:scale-110">
+              <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-1 h-0 bg-gradient-to-b from-brand-mediumGray to-brand-black group-hover:h-12 transition-all duration-300"></div>
+              <div className="inline-flex items-center justify-center w-32 h-32 bg-gradient-to-br from-brand-black to-brand-darkGray border-4 border-brand-lightGray text-white rounded-lg mb-6 relative z-10 shadow-xl group-hover:bg-gradient-to-br group-hover:from-brand-darkGray group-hover:to-brand-mediumGray transition-all duration-300 group-hover:scale-110">
                 <span className="text-4xl font-extrabold">{step.number}</span>
               </div>
               <h3 className="text-xl font-bold mb-3 text-brand-black">{step.title}</h3>

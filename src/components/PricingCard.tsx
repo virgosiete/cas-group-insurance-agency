@@ -20,29 +20,29 @@ export default function PricingCard({
     <div
       className={`relative p-8 rounded-lg border-2 transition-all duration-300 hover:shadow-2xl overflow-hidden group ${
         highlighted
-          ? 'bg-brand-black text-white border-brand-sage scale-105'
-          : 'bg-white text-brand-black border-brand-black'
+          ? 'bg-gradient-to-br from-brand-black via-brand-darkGray to-brand-mediumGray text-white border-primary-700 scale-105'
+          : 'bg-white text-brand-black border-brand-borderGray hover:border-brand-mediumGray'
       }`}
     >
       {highlighted && (
-        <div className="absolute top-0 right-0 w-24 h-24 bg-brand-sage opacity-20 transform rotate-45 translate-x-12 -translate-y-12"></div>
+        <div className="absolute top-0 right-0 w-24 h-24 bg-primary-500 opacity-20 transform rotate-45 translate-x-12 -translate-y-12"></div>
       )}
-      <div className="absolute bottom-0 left-0 w-2 h-0 bg-brand-sage group-hover:h-full transition-all duration-300"></div>
+      <div className="absolute bottom-0 left-0 w-2 h-0 bg-gradient-to-t from-brand-black via-brand-darkGray to-brand-mediumGray group-hover:h-full transition-all duration-300"></div>
       <div className="relative z-10">
         <h3 className="text-2xl font-bold mb-2">{name}</h3>
         <div className="mb-6">
           <span className="text-4xl font-bold">{price}</span>
-          <span className={highlighted ? 'text-gray-300' : 'text-gray-600'}>/month</span>
+          <span className={highlighted ? 'text-primary-300' : 'text-primary-600'}>/month</span>
         </div>
         <ul className="space-y-4 mb-8">
           {features.map((feature, index) => (
             <li key={index} className="flex items-start">
               <Check
                 className={`w-5 h-5 mr-3 mt-0.5 flex-shrink-0 ${
-                  highlighted ? 'text-brand-sage' : 'text-brand-sage'
+                  highlighted ? 'text-primary-300' : 'text-brand-black'
                 }`}
               />
-              <span className={highlighted ? 'text-gray-100' : 'text-gray-700'}>
+              <span className={highlighted ? 'text-primary-100' : 'text-primary-700'}>
                 {feature}
               </span>
             </li>
