@@ -69,11 +69,11 @@ export default function Team() {
             viewport={{ once: true }}
             className="bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-gray-100 hover:shadow-xl transition-shadow duration-300"
           >
-            <div className="aspect-square overflow-hidden">
+            <div className="aspect-square overflow-hidden bg-gray-100">
               <img
                 src={member.image}
                 alt={member.name}
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
             <div className="p-8">
