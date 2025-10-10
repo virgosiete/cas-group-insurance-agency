@@ -15,7 +15,7 @@ export default function Section({
 }: SectionProps) {
   const bgColors = {
     white: 'bg-white',
-    gray: 'bg-brand-veryLightGray',
+    gray: 'bg-gray-50',
   };
 
   return (

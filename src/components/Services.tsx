@@ -51,8 +51,8 @@ export default function Services() {
         ))}
       </div>
 
-      <div className="max-w-3xl mx-auto mt-16 p-8 bg-gradient-to-r from-brand-veryLightGray to-brand-lightGray border-l-8 border-brand-mediumGray rounded-lg relative overflow-hidden shadow-md">
-        <div className="absolute top-0 right-0 w-24 h-24 bg-brand-borderGray opacity-30 transform rotate-45 translate-x-12 -translate-y-12"></div>
+      <div className="max-w-3xl mx-auto mt-16 p-8 bg-brand-lightGray border-l-8 border-brand-black rounded-lg relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-24 h-24 bg-brand-sage opacity-20 transform rotate-45 translate-x-12 -translate-y-12"></div>
         <p className="text-brand-black text-lg font-semibold relative z-10">
           Every virtual assistant is trained on proven scripts and workflows tailored specifically for the life insurance industry.
         </p>

@@ -25,7 +25,7 @@ const teamMembers: TeamMember[] = [
 
 export default function Team() {
   return (
-    <Section id="team" className="bg-brand-veryLightGray">
+    <Section id="team" className="bg-gray-50">
       <div className="flex flex-col items-center justify-center max-w-[540px] mx-auto mb-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -34,7 +34,7 @@ export default function Team() {
           viewport={{ once: true }}
           className="flex justify-center"
         >
-          <div className="border-2 border-brand-mediumGray bg-gradient-to-r from-brand-darkGray to-brand-black text-white py-2 px-6 rounded-lg font-bold shadow-md">
+          <div className="border-2 border-brand-black bg-brand-sage text-white py-2 px-6 rounded-lg font-bold shadow-md">
             Our Team
           </div>
         </motion.div>
@@ -67,7 +67,7 @@ export default function Team() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 + index * 0.1, ease: [0.16, 1, 0.3, 1] }}
             viewport={{ once: true }}
-            className="bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-brand-lightGray hover:shadow-xl hover:border-brand-borderGray transition-all duration-300"
+            className="bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-gray-100 hover:shadow-xl transition-shadow duration-300"
           >
             <div className="aspect-square overflow-hidden">
               <img
@@ -82,7 +82,7 @@ export default function Team() {
               <h3 className="text-2xl font-bold text-brand-black mb-1">
                 {member.name}
               </h3>
-              <p className="text-primary-600 font-semibold text-lg mb-4">
+              <p className="text-brand-sage font-semibold text-lg mb-4">
                 {member.role}
               </p>
               <p className="text-gray-600 leading-relaxed">

@@ -40,8 +40,8 @@ export default function WhyChoose() {
       <div className="grid md:grid-cols-3 gap-8 mb-12">
         {reasons.map((reason, index) => (
           <div key={index} className="text-center relative group">
-            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-1 h-0 bg-gradient-to-b from-brand-mediumGray to-brand-darkGray group-hover:h-12 transition-all duration-300"></div>
-            <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-brand-black to-brand-darkGray border-4 border-brand-lightGray text-white rounded-lg mb-6 shadow-lg group-hover:bg-gradient-to-br group-hover:from-brand-mediumGray group-hover:to-brand-darkGray transition-all duration-300 group-hover:scale-110">
+            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-1 h-0 bg-brand-sage group-hover:h-12 transition-all duration-300"></div>
+            <div className="inline-flex items-center justify-center w-20 h-20 bg-brand-black border-4 border-white text-white rounded-lg mb-6 shadow-lg group-hover:bg-brand-sage transition-all duration-300 group-hover:scale-110">
               <reason.icon className="w-10 h-10" strokeWidth={2} />
             </div>
             <h3 className="text-xl font-bold mb-3 text-brand-black">{reason.title}</h3>
