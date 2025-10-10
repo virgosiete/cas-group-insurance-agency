@@ -3,7 +3,7 @@ import Section from './Section';
 
 export default function About() {
   const features = [
-    'Fresh Lead Outreach',
+    'Comprehensive Lead Outreach',
     'Quality Appointment Setting',
     'Follow-Up & Show-Up Optimization',
   ];

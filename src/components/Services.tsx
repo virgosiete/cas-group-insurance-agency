@@ -6,8 +6,8 @@ export default function Services() {
   const services = [
     {
       icon: Phone,
-      title: 'Fresh Lead Outreach',
-      description: 'Professional contact with your newest leads using proven scripts designed for life insurance and mortgage protection.',
+      title: 'Complete Lead Outreach',
+      description: 'Professional contact with all your leads—fresh, aged, or follow-up—using proven scripts designed for life insurance and mortgage protection.',
     },
     {
       icon: UserCheck,
