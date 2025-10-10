@@ -35,7 +35,7 @@ export const TestimonialsColumn = (props: {
                   <div className="absolute top-0 right-0 w-20 h-20 bg-brand-sage opacity-20 transform rotate-45 translate-x-10 -translate-y-10"></div>
                   <div className="absolute bottom-0 left-0 w-1 h-0 bg-brand-sage group-hover:h-full transition-all duration-500"></div>
                   <div className="relative z-10">
-                    <div className="text-primary-700 leading-relaxed">{text}</div>
+                    <div className="text-gray-700 leading-relaxed">{text}</div>
                     <div className="flex items-center gap-3 mt-5">
                       <img
                         width={60}
@@ -46,7 +46,7 @@ export const TestimonialsColumn = (props: {
                       />
                       <div className="flex flex-col">
                         <div className="font-bold tracking-tight leading-5 text-brand-black">{name}</div>
-                        <div className="leading-5 opacity-70 tracking-tight text-primary-600 font-medium">{role}</div>
+                        <div className="leading-5 opacity-70 tracking-tight text-gray-600 font-medium">{role}</div>
                       </div>
                     </div>
                   </div>

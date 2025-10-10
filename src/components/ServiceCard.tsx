@@ -16,7 +16,7 @@ export default function ServiceCard({ icon: Icon, title, description }: ServiceC
           <Icon className="w-7 h-7 text-white" strokeWidth={2} />
         </div>
         <h3 className="text-xl font-bold mb-3 text-brand-black">{title}</h3>
-        <p className="text-primary-600 leading-relaxed">{description}</p>
+        <p className="text-gray-600 leading-relaxed">{description}</p>
       </div>
     </div>
   );

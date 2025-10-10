@@ -29,10 +29,10 @@ export default function WhyChoose() {
   };
 
   return (
-    <Section background="teal">
+    <Section background="gray">
       <div className="text-center mb-16">
         <h2 className="mb-8">Why Businesses Trust CAS Group</h2>
-        <p className="text-xl text-primary-600 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
           Partner with a team that delivers results through expertise, reliability, and proven systems.
         </p>
       </div>
@@ -45,7 +45,7 @@ export default function WhyChoose() {
               <reason.icon className="w-10 h-10" strokeWidth={2} />
             </div>
             <h3 className="text-xl font-bold mb-3 text-brand-black">{reason.title}</h3>
-            <p className="text-primary-600 leading-relaxed">{reason.description}</p>
+            <p className="text-gray-600 leading-relaxed">{reason.description}</p>
           </div>
         ))}
       </div>

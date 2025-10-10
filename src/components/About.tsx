@@ -9,15 +9,15 @@ export default function About() {
   ];
 
   return (
-    <Section background="teal">
+    <Section background="gray">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="mb-8">Who We Are</h2>
 
-        <p className="text-lg md:text-xl text-primary-700 mb-10 leading-relaxed">
+        <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
           We're a dedicated team focused on one mission: filling your calendar with qualified appointments so you can close more deals.
         </p>
 
-        <p className="text-lg md:text-xl text-primary-700 mb-16 leading-relaxed">
+        <p className="text-lg md:text-xl text-gray-700 mb-16 leading-relaxed">
           Your success is our priority. Through exceptional service, transparent communication, and meticulous attention to detail, we transform your investment into measurable results.
         </p>
 

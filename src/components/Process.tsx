@@ -28,7 +28,7 @@ export default function Process() {
     <Section background="white">
       <div className="text-center mb-16">
         <h2 className="mb-8">How It Works</h2>
-        <p className="text-xl text-primary-600 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
           Get started in four simple steps and watch your pipeline fill with qualified opportunities.
         </p>
       </div>
@@ -44,7 +44,7 @@ export default function Process() {
                 <span className="text-4xl font-extrabold">{step.number}</span>
               </div>
               <h3 className="text-xl font-bold mb-3 text-brand-black">{step.title}</h3>
-              <p className="text-primary-600 leading-relaxed">{step.description}</p>
+              <p className="text-gray-600 leading-relaxed">{step.description}</p>
             </div>
           ))}
         </div>

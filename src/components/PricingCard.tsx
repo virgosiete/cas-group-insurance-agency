@@ -32,7 +32,7 @@ export default function PricingCard({
         <h3 className="text-2xl font-bold mb-2">{name}</h3>
         <div className="mb-6">
           <span className="text-4xl font-bold">{price}</span>
-          <span className={highlighted ? 'text-primary-300' : 'text-primary-600'}>/month</span>
+          <span className={highlighted ? 'text-gray-300' : 'text-gray-600'}>/month</span>
         </div>
         <ul className="space-y-4 mb-8">
           {features.map((feature, index) => (
@@ -42,7 +42,7 @@ export default function PricingCard({
                   highlighted ? 'text-brand-sage' : 'text-brand-sage'
                 }`}
               />
-              <span className={highlighted ? 'text-primary-100' : 'text-primary-700'}>
+              <span className={highlighted ? 'text-gray-100' : 'text-gray-700'}>
                 {feature}
               </span>
             </li>

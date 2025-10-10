@@ -39,10 +39,10 @@ export default function Pricing() {
   ];
 
   return (
-    <Section id="pricing" background="teal">
+    <Section id="pricing" background="gray">
       <div className="text-center mb-16">
         <h2 className="mb-8">Our Packages</h2>
-        <p className="text-xl text-primary-600 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
           Choose the plan that matches your business needs and growth objectives.
         </p>
       </div>
@@ -61,7 +61,7 @@ export default function Pricing() {
       </div>
 
       <div className="text-center">
-        <p className="text-primary-600 text-lg">
+        <p className="text-gray-600 text-lg">
           All plans include dedicated training, ongoing support, and performance monitoring.
         </p>
       </div>
