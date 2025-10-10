@@ -21,7 +21,7 @@ export default function PricingCard({
       className={`relative p-8 rounded-lg border-2 transition-all duration-300 hover:shadow-2xl overflow-hidden group ${
         highlighted
           ? 'bg-brand-black text-white border-brand-sage scale-105'
-          : 'bg-white text-brand-black border-brand-black'
+          : 'bg-gradient-to-br from-white to-gray-50 text-brand-black border-gray-300 hover:border-brand-black'
       }`}
     >
       {highlighted && (
