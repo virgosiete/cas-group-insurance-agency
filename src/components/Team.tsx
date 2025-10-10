@@ -25,7 +25,7 @@ const teamMembers: TeamMember[] = [
 
 export default function Team() {
   return (
-    <Section id="team" className="bg-gray-50">
+    <Section id="team" className="bg-primary-50">
       <div className="flex flex-col items-center justify-center max-w-[540px] mx-auto mb-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -53,7 +53,7 @@ export default function Team() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
           viewport={{ once: true }}
-          className="text-center mt-5 opacity-75 text-gray-600"
+          className="text-center mt-5 opacity-75 text-primary-600"
         >
           The visionaries driving CAS Group's success
         </motion.p>
@@ -67,7 +67,7 @@ export default function Team() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 + index * 0.1, ease: [0.16, 1, 0.3, 1] }}
             viewport={{ once: true }}
-            className="bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-gray-100 hover:shadow-xl transition-shadow duration-300"
+            className="bg-white rounded-2xl shadow-lg overflow-hidden border-2 border-primary-100 hover:shadow-xl transition-shadow duration-300"
           >
             <div className="aspect-square overflow-hidden">
               <img
@@ -85,7 +85,7 @@ export default function Team() {
               <p className="text-brand-sage font-semibold text-lg mb-4">
                 {member.role}
               </p>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-primary-600 leading-relaxed">
                 {member.bio}
               </p>
             </div>

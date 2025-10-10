@@ -71,7 +71,7 @@ export default function Testimonials() {
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold tracking-tighter mt-5 text-center">
             What our users say
           </h2>
-          <p className="text-center mt-5 opacity-75 text-gray-600">
+          <p className="text-center mt-5 opacity-75 text-primary-600">
             See what our customers have to say about us.
           </p>
         </motion.div>

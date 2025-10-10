@@ -27,10 +27,10 @@ export default function Hero() {
         <h1 className="mb-6 text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight text-brand-black">
           Your Reliable Virtual Assistant Team
           <br />
-          <span className="text-gray-600 font-bold">For Life Insurance Agents</span>
+          <span className="text-primary-600 font-bold">For Life Insurance Agents</span>
         </h1>
 
-        <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-2xl text-primary-600 mb-12 max-w-3xl mx-auto leading-relaxed">
           We specialize in appointment setting for life insurance agents and brokers across the U.S., focusing on life insurance and mortgage protection. Every call is designed to convert.
         </p>
 

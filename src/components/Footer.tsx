@@ -31,10 +31,10 @@ export default function Footer() {
               />
               <h3 className="text-2xl font-bold text-white border-l-4 border-brand-sage pl-4">The CAS Group VA</h3>
             </div>
-            <p className="text-gray-300 leading-relaxed max-w-md mb-4">
+            <p className="text-primary-300 leading-relaxed max-w-md mb-4">
               Specializing in appointment setting for life insurance agents and brokers across the U.S. Your success is our priority.
             </p>
-            <div className="flex items-center text-gray-300">
+            <div className="flex items-center text-primary-300">
               <Phone className="w-4 h-4 mr-2" />
               <a href="tel:+16789121094" className="hover:text-brand-sage transition-colors font-semibold">
                 +1 (678) 912-1094
@@ -49,7 +49,7 @@ export default function Footer() {
                 <li key={link.id}>
                   <button
                     onClick={() => scrollToSection(link.id)}
-                    className="text-gray-300 hover:text-brand-sage transition-colors font-medium"
+                    className="text-primary-300 hover:text-brand-sage transition-colors font-medium"
                   >
                     {link.name}
                   </button>
@@ -65,7 +65,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/in/conradferguson-virtual-assistant/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-brand-darkGray border border-gray-700 rounded-lg flex items-center justify-center hover:bg-brand-sage hover:border-brand-sage transition-all duration-300"
+                className="w-10 h-10 bg-brand-darkTeal border border-primary-700 rounded-lg flex items-center justify-center hover:bg-brand-sage hover:border-brand-sage transition-all duration-300"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
@@ -74,7 +74,7 @@ export default function Footer() {
                 href="https://www.facebook.com/profile.php?id=61579594816897&mibextid=wwXIfr&rdid=hWofcXifwN1RQVAX&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1VeayMADwy%2F%3Fmibextid%3DwwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-brand-darkGray border border-gray-700 rounded-lg flex items-center justify-center hover:bg-brand-sage hover:border-brand-sage transition-all duration-300"
+                className="w-10 h-10 bg-brand-darkTeal border border-primary-700 rounded-lg flex items-center justify-center hover:bg-brand-sage hover:border-brand-sage transition-all duration-300"
                 aria-label="Facebook"
               >
                 <Facebook className="w-5 h-5" />
@@ -83,7 +83,7 @@ export default function Footer() {
                 href="https://www.instagram.com/resplendent_con"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-brand-darkGray border border-gray-700 rounded-lg flex items-center justify-center hover:bg-brand-sage hover:border-brand-sage transition-all duration-300"
+                className="w-10 h-10 bg-brand-darkTeal border border-primary-700 rounded-lg flex items-center justify-center hover:bg-brand-sage hover:border-brand-sage transition-all duration-300"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
@@ -92,7 +92,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
+        <div className="pt-8 border-t border-primary-800 text-center text-primary-400 text-sm">
           <p>Copyright &copy; 2025 CAS Group. All rights reserved.</p>
         </div>
       </div>

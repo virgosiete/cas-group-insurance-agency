@@ -40,10 +40,10 @@ export default function Contact({ onSubmit }: ContactProps) {
   };
 
   return (
-    <Section id="contact" background="gray">
+    <Section id="contact" background="teal">
       <div className="text-center mb-16">
         <h2 className="mb-6">Let's Build Your Appointment Pipeline</h2>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-xl text-primary-600 max-w-2xl mx-auto leading-relaxed">
           Connect with our team today and discover how a trained virtual assistant can transform your business.
         </p>
       </div>
@@ -57,7 +57,7 @@ export default function Contact({ onSubmit }: ContactProps) {
 
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-2">
+                <label htmlFor="name" className="block text-sm font-semibold text-primary-700 mb-2">
                   Name
                 </label>
                 <input
@@ -66,13 +66,13 @@ export default function Contact({ onSubmit }: ContactProps) {
                   required
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-brand-sage focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 border-2 border-primary-300 rounded-lg focus:border-brand-sage focus:outline-none transition-colors"
                   placeholder="Your full name"
                 />
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-2">
+                <label htmlFor="email" className="block text-sm font-semibold text-primary-700 mb-2">
                   Email
                 </label>
                 <input
@@ -81,13 +81,13 @@ export default function Contact({ onSubmit }: ContactProps) {
                   required
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-brand-sage focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 border-2 border-primary-300 rounded-lg focus:border-brand-sage focus:outline-none transition-colors"
                   placeholder="your@email.com"
                 />
               </div>
 
               <div>
-                <label htmlFor="businessType" className="block text-sm font-semibold text-gray-700 mb-2">
+                <label htmlFor="businessType" className="block text-sm font-semibold text-primary-700 mb-2">
                   Business Type
                 </label>
                 <select
@@ -95,7 +95,7 @@ export default function Contact({ onSubmit }: ContactProps) {
                   required
                   value={formData.businessType}
                   onChange={(e) => setFormData({ ...formData, businessType: e.target.value })}
-                  className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-brand-sage focus:outline-none transition-colors"
+                  className="w-full px-4 py-3 border-2 border-primary-300 rounded-lg focus:border-brand-sage focus:outline-none transition-colors"
                 >
                   <option value="">Select your business type</option>
                   <option value="life_insurance_agent">Life Insurance Agent</option>
@@ -107,7 +107,7 @@ export default function Contact({ onSubmit }: ContactProps) {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-2">
+                <label htmlFor="message" className="block text-sm font-semibold text-primary-700 mb-2">
                   Message
                 </label>
                 <textarea
@@ -116,7 +116,7 @@ export default function Contact({ onSubmit }: ContactProps) {
                   rows={5}
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:border-black focus:outline-none transition-colors resize-none"
+                  className="w-full px-4 py-3 border-2 border-primary-300 rounded-lg focus:border-black focus:outline-none transition-colors resize-none"
                   placeholder="Tell us about your business and goals..."
                 />
               </div>
@@ -144,20 +144,20 @@ export default function Contact({ onSubmit }: ContactProps) {
             </form>
 
             </div>
-            <div className="mt-8 pt-8 border-t-2 border-brand-lightGray space-y-4 relative z-10">
-              <div className="flex items-center text-gray-700">
+            <div className="mt-8 pt-8 border-t-2 border-brand-lightTeal space-y-4 relative z-10">
+              <div className="flex items-center text-primary-700">
                 <Phone className="w-5 h-5 mr-3" />
                 <a href="tel:+16789121094" className="hover:text-brand-sage font-semibold transition-colors">
                   +1 (678) 912-1094
                 </a>
               </div>
-              <div className="flex items-center text-gray-700">
+              <div className="flex items-center text-primary-700">
                 <Mail className="w-5 h-5 mr-3" />
                 <a href="mailto:info@casgrpupph.com" className="hover:text-brand-sage font-semibold transition-colors">
                   info@casgrpupph.com
                 </a>
               </div>
-              <div className="flex items-center text-gray-700">
+              <div className="flex items-center text-primary-700">
                 <MessageCircle className="w-5 h-5 mr-3" />
                 <a href="https://wa.me/16789121094" target="_blank" rel="noopener noreferrer" className="hover:text-brand-sage font-semibold transition-colors">
                   WhatsApp

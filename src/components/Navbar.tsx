@@ -47,7 +47,7 @@ export default function Navbar() {
               alt="CAS Group Logo"
               className="h-12 w-auto"
             />
-            <span className="text-2xl font-bold text-gray-800">CAS Group</span>
+            <span className="text-2xl font-bold text-primary-800">CAS Group</span>
           </button>
 
           <div className="hidden md:flex items-center space-x-8">
@@ -55,7 +55,7 @@ export default function Navbar() {
               <button
                 key={link.id}
                 onClick={() => scrollToSection(link.id)}
-                className="text-gray-700 hover:text-brand-sage font-semibold transition-colors"
+                className="text-primary-700 hover:text-brand-sage font-semibold transition-colors"
               >
                 {link.name}
               </button>
@@ -70,7 +70,7 @@ export default function Navbar() {
           </div>
 
           <button
-            className="md:hidden text-gray-800"
+            className="md:hidden text-primary-800"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -79,13 +79,13 @@ export default function Navbar() {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-200">
+        <div className="md:hidden bg-white border-t border-primary-200">
           <div className="container mx-auto px-4 py-6 space-y-4">
             {navLinks.map((link) => (
               <button
                 key={link.id}
                 onClick={() => scrollToSection(link.id)}
-                className="block w-full text-left text-gray-700 hover:text-brand-sage font-semibold py-2"
+                className="block w-full text-left text-primary-700 hover:text-brand-sage font-semibold py-2"
               >
                 {link.name}
               </button>
