@@ -3,25 +3,22 @@ import Section from './Section';
 
 export default function About() {
   const features = [
-    'Contacting Fresh Leads',
-    'Booking Quality Appointments',
-    'Following Up & Ensuring Clients Show Up',
+    'Fresh Lead Outreach',
+    'Quality Appointment Setting',
+    'Follow-Up & Show-Up Optimization',
   ];
 
   return (
     <Section background="gray">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="mb-6">Who We Are</h2>
-        <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
-          
+        <h2 className="mb-8">Who We Are</h2>
+
+        <p className="text-lg md:text-xl text-gray-700 mb-10 leading-relaxed">
+          We're a dedicated team focused on one mission: filling your calendar with qualified appointments so you can close more deals.
         </p>
 
-        <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
-          We're a dedicated team focused on one thing: helping you close more deals by filling your calendar with qualified appointments.
-        </p>
-
-        <p className="text-lg md:text-xl text-gray-700 mb-12 leading-relaxed">
-          At CAS Group, your success is our priority. We turn your investment into real results through excellent service, consistent communication, and attention to detail.
+        <p className="text-lg md:text-xl text-gray-700 mb-16 leading-relaxed">
+          Your success is our priority. Through exceptional service, transparent communication, and meticulous attention to detail, we transform your investment into measurable results.
         </p>
 
         <div className="grid md:grid-cols-3 gap-6 mt-12">

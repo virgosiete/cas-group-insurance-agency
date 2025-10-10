@@ -30,8 +30,8 @@ export default function Hero() {
           <span className="text-gray-600 font-bold">For Life Insurance Agents</span>
         </h1>
 
-        <p className="text-xl md:text-2xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed">
-          At The CAS Group VA, we specialize in appointment setting for life insurance agents and brokers across the U.S., focusing on life insurance and mortgage protection. We make sure every call counts.
+        <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+          We specialize in appointment setting for life insurance agents and brokers across the U.S., focusing on life insurance and mortgage protection. Every call is designed to convert.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

@@ -42,9 +42,9 @@ export default function Contact({ onSubmit }: ContactProps) {
   return (
     <Section id="contact" background="gray">
       <div className="text-center mb-16">
-        <h2 className="mb-4">Let's Build Your Appointment Pipeline</h2>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          Book a call with our team and start scaling with a trained VA.
+        <h2 className="mb-6">Let's Build Your Appointment Pipeline</h2>
+        <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+          Connect with our team today and discover how a trained virtual assistant can transform your business.
         </p>
       </div>
 

@@ -15,11 +15,11 @@ export default function Pricing() {
       price: 'Contact for Pricing',
       features: [
         '30 hours per week',
-        'Focused calls and appointment setting',
-        'Fresh lead contact',
-        'Quality appointment booking',
-        'Follow-up management',
-        'Perfect for individual agents',
+        'Professional appointment setting',
+        'Fresh lead outreach',
+        'Quality prospect screening',
+        'Follow-up coordination',
+        'Ideal for individual agents',
       ],
       highlighted: false,
     },
@@ -28,11 +28,11 @@ export default function Pricing() {
       price: 'Contact for Pricing',
       features: [
         '40-60 hours per week',
-        'Pure calling and appointment setting',
-        'Interview support for new recruits',
-        'Team building assistance',
-        'Ideal for agency owners',
-        'Scale fast with dedicated support',
+        'High-volume appointment setting',
+        'Recruit interview scheduling',
+        'Team building support',
+        'Perfect for agency owners',
+        'Accelerated growth with dedicated assistance',
       ],
       highlighted: true,
     },
@@ -41,7 +41,10 @@ export default function Pricing() {
   return (
     <Section id="pricing" background="gray">
       <div className="text-center mb-16">
-        <h2 className="mb-6">Our Packages</h2>
+        <h2 className="mb-8">Our Packages</h2>
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          Choose the plan that matches your business needs and growth objectives.
+        </p>
       </div>
 
       <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-12">

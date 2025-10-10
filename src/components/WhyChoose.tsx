@@ -6,18 +6,18 @@ export default function WhyChoose() {
   const reasons = [
     {
       icon: Check,
-      title: 'Consistent Appointments',
-      description: 'Daily outreach and booked calls.',
+      title: 'Consistent Results',
+      description: 'Daily outreach that fills your calendar with qualified appointments.',
     },
     {
       icon: MessageCircle,
-      title: 'Expert Communicators',
-      description: 'Fluent English, trained in sales tone.',
+      title: 'Professional Communication',
+      description: 'Fluent English speakers trained in effective sales techniques.',
     },
     {
       icon: Briefcase,
-      title: 'Fully Managed Service',
-      description: 'We handle training, supervision, and performance.',
+      title: 'Fully Managed',
+      description: 'Comprehensive training, supervision, and performance tracking included.',
     },
   ];
 
@@ -31,7 +31,10 @@ export default function WhyChoose() {
   return (
     <Section background="gray">
       <div className="text-center mb-16">
-        <h2 className="mb-6">Why Businesses Trust CAS Group</h2>
+        <h2 className="mb-8">Why Businesses Trust CAS Group</h2>
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          Partner with a team that delivers results through expertise, reliability, and proven systems.
+        </p>
       </div>
 
       <div className="grid md:grid-cols-3 gap-8 mb-12">

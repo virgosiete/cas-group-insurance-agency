@@ -4,30 +4,33 @@ export default function Process() {
   const steps = [
     {
       number: '01',
-      title: 'Book a Discovery Call',
-      description: 'Tell us about your business and goals.',
+      title: 'Discovery Call',
+      description: 'Share your business objectives and appointment goals with our team.',
     },
     {
       number: '02',
-      title: 'Get Matched',
-      description: 'We assign a trained appointment setter.',
+      title: 'VA Assignment',
+      description: 'We match you with a trained appointment setter aligned with your needs.',
     },
     {
       number: '03',
-      title: 'Launch',
-      description: 'Your VA starts prospecting and booking calls.',
+      title: 'Launch & Outreach',
+      description: 'Your dedicated VA begins contacting leads and scheduling appointments.',
     },
     {
       number: '04',
-      title: 'Scale',
-      description: 'Track your booked meetings and growth.',
+      title: 'Track & Scale',
+      description: 'Monitor your pipeline growth and scale as your business expands.',
     },
   ];
 
   return (
     <Section background="white">
       <div className="text-center mb-16">
-        <h2 className="mb-6">How It Works</h2>
+        <h2 className="mb-8">How It Works</h2>
+        <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          Get started in four simple steps and watch your pipeline fill with qualified opportunities.
+        </p>
       </div>
 
       <div className="max-w-5xl mx-auto">
