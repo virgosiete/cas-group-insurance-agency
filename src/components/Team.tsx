@@ -73,7 +73,9 @@ export default function Team() {
               <img
                 src={member.image}
                 alt={member.name}
-                className="w-full h-full object-cover object-center"
+                className={`w-full h-full object-cover ${
+                  member.name === "Wes Allen" ? "object-[center_20%]" : "object-center"
+                }`}
               />
             </div>
             <div className="p-8">
